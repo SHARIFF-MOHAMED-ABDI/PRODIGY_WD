@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and content styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.content {
+  padding: 50px;
+}
+
+section {
+  margin: 100px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* Navbar styling on scroll */
+.navbar.scrolled {
+  background-color: #222;
+}
+
+/* Optional: Add a smooth scroll behavior for navigation */
+html {
+  scroll-behavior: smooth;
+}
